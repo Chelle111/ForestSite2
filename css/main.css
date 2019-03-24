@@ -1,0 +1,431 @@
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*General Styles*/
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'hightower-text', serif;
+  font-size: 1em;
+  text-align: left;
+  color: white;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.content-wrapper{
+  width: 90%;
+  margin: 50px 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'hightower-text', serif;
+  font-weight: lighter;
+}
+
+
+
+
+/* Header/Footer Styles */
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  margin: 25px 0 25px 0;
+}
+
+header figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+header a {
+  width: 95%;
+  margin: 0;
+}
+
+header img {
+  opacity: 0.7;
+  box-shadow: 0px 0 63px 42px white;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+  nav {
+  width: 100%;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+ nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.header-divider {
+  width: 95%;
+  height: 1px;
+  background: white;
+}
+
+
+
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+footer .content-wrapper {
+  border-top: 1px solid white;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+/* ----------Mobile Styles - Homepage-----------------*/
+
+body {
+  background: url('../imgs/contact-bckgrnd.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+/* Hero Area */
+
+.hero-area {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+
+.hero-area h1{
+  color: white;
+  font-size: 1.7em;
+  text-transform: uppercase;
+/*  padding-left: 20px; */
+  padding-bottom: 20px;
+  font-family: 'hightower-text', serif;
+  font-weight: lighter;
+}
+
+/* Aside */
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  color: white;
+  box-sizing: border-box;
+}
+
+aside .content-wrapper {
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+aside .form {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  font-style: italic;
+  font-family: 'hightower-text', serif;
+}
+
+input[type=button]{
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-weight: 500;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'hightower-text', serif;
+}
+
+
+/*----Features */
+
+
+
+
+/*-----Reviews-------*/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  color: white;
+
+}
+
+.reviews .content-wrapper {
+  width: 80%;
+  margin-top: 0;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.reviews h2 {
+  margin-top: 0;
+}
+
+.reviews p {
+  padding-bottom: 15px;
+}
+
+
+
+footer {
+
+}
+
+footer .content-wrapper {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+footer p {
+  font-weight: lighter;
+}
+
+footer .copyright {
+  font-size: .875em;
+  margin-bottom: 0;
+}
+
+
+/*-------About Page --------*/
+
+.about-hero {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hero h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  /*background-color: #969672;*/
+}
+
+.about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  text-align: center;
+  margin: 0;
+/*  border-top: 1px solid white;
+  border-bottom: 1px solid white;*/
+}
+
+.about h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.about img {
+  width: 40%;
+  /*margin-bottom: 60px;
+  margin-right: 15px;*/
+  border: 1px solid white;
+  margin-bottom: 25px;
+}
+
+.about p {
+  width: 80%;
+ display: flex;
+ justify-content: center;
+ flex-flow: row wrap;
+}
+
+/*-------Gallery----*/
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  border: 2px solid white;
+  margin-bottom: 20px;
+}
+
+article img {
+  border-bottom: 1px solid white;
+}
+
+article p {
+  text-align: center;
+  background: #1e4332;
+  padding: 5px;
+  margin: 0;
+}
+
+
+/*------ FAQ ------*/
+
+.features .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin-top: 0;
+}
+
+.features h2 {
+  margin-bottom: 25px;
+}
+
+.faq-content {
+  width: 90%;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.faq-content h3 {
+  font-weight: bold;
+}
+
+ .last {
+  border-bottom: none;
+}
+
+
+
+/*-------contact-----*/
+
+main {
+  color: white;
+}
+
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-main .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+
+
+.contact-main h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-main .contact {
+  width: 50%;
+  text-align: center;
+}
+
+.contact-main .form {
+  width:70%;
+  padding-bottom: 20px;
+}
+
+.contact-main .form input[type=text] {
+  margin-bottom: 10px;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.contact-main .form textarea {
+  height: 150px;
+}
+
+.contact-main .form input[type=button] {
+  margin-top: 10px;
+  padding: 5px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family:'hightower-text', serif;
+}
