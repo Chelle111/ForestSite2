@@ -149,7 +149,10 @@ body {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
 
+.hero-area .content-wrapper {
+  margin: 0;
 }
 
 .hero-area h1{
@@ -158,6 +161,7 @@ body {
   text-transform: uppercase;
   font-family: 'hightower-text', serif;
   font-weight: lighter;
+  padding-top: 100px;
 }
 
 /* Aside */
@@ -205,7 +209,38 @@ input[type=button]{
 
 
 /*----Features */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.features .content-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin-top: 0;
+  border-bottom: 1px solid white;
+}
 
+.features-items {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.features article {
+  width: 50%;
+  margin-bottom: 20px;
+}
 
 
 
@@ -311,22 +346,22 @@ footer .copyright {
 
 /*-------Gallery----*/
 
-section {
+.gallery {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-article {
+.gallery article {
   border: 2px solid white;
   margin-bottom: 20px;
 }
 
-article img {
+.gallery article img {
   border-bottom: 1px solid white;
 }
 
-article p {
+.gallery article p {
   text-align: center;
   background: #1e4332;
   padding: 5px;
@@ -336,7 +371,14 @@ article p {
 
 /*------ FAQ ------*/
 
-.features .content-wrapper {
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,7 +386,7 @@ article p {
   margin-top: 0;
 }
 
-.features h2 {
+.faq h2 {
   margin-bottom: 25px;
 }
 
